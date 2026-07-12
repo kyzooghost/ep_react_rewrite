@@ -2,7 +2,7 @@
   "name": "ep_react_rewrite",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://kyzooghost.github.io/ep_react_rewrite/",
+  "homepage": "https://www.eternalpossibilities.dev",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
