@@ -14,8 +14,8 @@ describe('App routing', () => {
     render(<App />);
 
     // Assert
-    expect(screen.getByText('Archive')).toBeInTheDocument();
-    expect(screen.getByText('Podcast')).toBeInTheDocument();
+    expect(screen.getAllByText('Archive')).toHaveLength(2);
+    expect(screen.getAllByText('Podcast')).toHaveLength(2);
     expect(screen.queryByText('Team')).not.toBeInTheDocument();
   });
 
