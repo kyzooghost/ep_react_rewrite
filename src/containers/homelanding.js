@@ -4,7 +4,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTwitter, faFacebookF, faInstagram } from '@fortawesome/free-brands-svg-icons'
 import { facebook_style, twitter_style, instagram_style} from './styles/social_media_button_styles'
 import emailjs from 'emailjs-com';
-import { serviceID, templateID, userID } from '../api_keys/emailjs';
+import { serviceID, templateID, userID } from '../emailjsConfig';
 
 // TODO - Disable SUBMIT button hover effect, after pressing submit
 // TODO - Fix up Form CSS

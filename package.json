@@ -7,7 +7,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "start": "react-scripts start",
-    "build": "react-scripts build",
+    "build": "NODE_OPTIONS=--openssl-legacy-provider react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
   },
@@ -22,11 +22,8 @@
     "emailjs-com": "^3.2.0",
     "fuse": "^0.4.0",
     "gh-pages": "^3.2.3",
-    "gifsicle": "^5.2.0",
-    "guetzli": "^3.0.1",
     "moment": "^2.29.1",
     "normalize": "^0.3.1",
-    "pngquant-bin": "^6.0.0",
     "react": "^17.0.2",
     "react-audio-player": "^0.17.0",
     "react-dom": "^17.0.2",
@@ -56,5 +53,10 @@
   },
   "devDependencies": {
     "compress-images": "^1.9.9"
+  },
+  "optionalDependencies": {
+    "gifsicle": "^5.2.0",
+    "guetzli": "^3.0.1",
+    "pngquant-bin": "^6.0.0"
   }
 }
