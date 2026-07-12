@@ -15,7 +15,6 @@ export function HeaderContainer() {
                 <Header.LinkContainer>
                     <Header.StyledLink to="/blog">Archive</Header.StyledLink>
                     <Header.StyledLink to="/podcast">Podcast</Header.StyledLink>
-                    <Header.StyledLink to="/team">Team</Header.StyledLink>
                 </Header.LinkContainer>
                 <Header.StyledBurgerContainer onClick={() => setOpen(!open)}>
                     <Header.StyledBurger open={open}>
@@ -33,11 +32,7 @@ export function HeaderContainer() {
                 <Header.DropdownMenuText open={open}>
                     <Header.DropdownLink to="/podcast">Podcast</Header.DropdownLink>
                 </Header.DropdownMenuText>
-                <Header.DropdownMenuText open={open}>
-                    <Header.DropdownLink to="/team">Team</Header.DropdownLink>
-                </Header.DropdownMenuText>
             </Header.DropdownMenuContainer>
         </Header>
     )
 }
-

@@ -1,15 +1,12 @@
 import React from 'react';
 import { HashRouter as Router, Switch } from 'react-router-dom';
 import { Route } from 'react-router-dom';
-import { Home, Team, Podcast, Covidsations, Blog, BlogPage } from './pages/index';
+import { Home, Podcast, Covidsations, Blog, BlogPage } from './pages/index';
 
 function App() {
-  return (
+    return (
     <Router basename='/'>
       <Switch>
-        <Route exact path ="/team">
-          < Team />
-        </Route>
         <Route exact path ="/podcast">
           < Podcast />
         </Route>
